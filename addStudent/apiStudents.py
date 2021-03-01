@@ -92,6 +92,7 @@ class Test_apiEndToEnd():
         #Cheching 'myid' in st_id list
         std_id=jsonpath.jsonpath(responce.json(), 'data[*].st_id')
         assert str(myid) in std_id
+        print("Git hub cheching has been successfuly")
 
 
 
