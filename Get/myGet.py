@@ -21,6 +21,8 @@ for i in range (0,6):
 print(mylist)
 assert "Michael" and "Howell" and "Tobias" in mylist
 
+print("Git attached")
+
 
 #Header part
 
