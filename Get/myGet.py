@@ -12,7 +12,6 @@ json_respose= json.loads(response.text)
 mylist=[]
 
 
-
 for i in range (0,6):
     first_name= jsonpath.jsonpath(json_respose, 'data['+str(i)+'].first_name')
 
