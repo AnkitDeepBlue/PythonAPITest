@@ -12,4 +12,4 @@ config.read('porp/prop.ini')
 url_a=config['AP']['point']
 print(url_a)
 
-print(url)
+#print(url)
